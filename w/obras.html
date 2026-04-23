@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+ <meta charset="UTF-8">
+ 
+<title>Obras</title>
+</head>
+    <meta charset="UTF-8">
+    <title>Estructura con Divisiones</title>
+
+    <style>
+        /* Estilo general del cuerpo */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1c0840;
+            margin: 0;
+            display: flex;
+            flex-direction: column;    /* Mantiene los elementos uno bajo otro (navbar, contenedor, h1) */
+            min-height: 100vh;         /* Hace que el cuerpo mida al menos el 100% de la ventana */
+            justify-content: center;   /* Centra todo el contenido verticalmente */
+            align-items: center;       /* Centra todo el contenido horizontalmente */
+        }
+        
+         .boton { /* Define una clase llamada "boton" */
+            background-color: rgb(75, 59, 98); /* Color de fondo del botón */
+            color: rgb(255, 255, 255); /* Color del texto */
+            padding: 1px; /* Espacio interno (arriba, abajo, izquierda, derecha) */
+            width: 80px; /* Ancho fijo del botón */
+            text-align: center; /* Centra el texto horizontalmente */
+            transition: 0.3s; /* Hace que los cambios (como color) sean suaves en 0.3 segundos */
+        }
+
+        .boton:hover { /* Se activa cuando el mouse pasa sobre el elemento */
+            background-color: rgb(46, 13, 80); /* Cambia el color de fondo al pasar el mouse */
+        }
+
+        /* Contenedor principal */
+        .contenedor {
+            width: 90%;
+            display: flex;           /* Los alinea en horizontal automáticamente */
+            justify-content: center; /* Los centra en la pantalla */
+            align-items: flex-start; /* Alinea los bloques por la parte superior */
+            gap: 30px;               /* Los mantiene separados como bloques */
+            flex-wrap: wrap;         /* Si son muchas imágenes, las pasa a la fila de abajo */
+            margin: 20px 0; /* Un pequeño margen para que no pegue con el h1 o el navbar */
+        }
+
+        /* Sección o bloque */
+        .bloque {
+            background-color: rgb(75, 59, 98);
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            text-align: left;      /* Centra el texto (título y párrafo) dentro del bloque */
+            color: aliceblue
+        }
+
+        /* Imagen */
+        .bloque img {
+            width: 100%;
+            height: 250;
+            object-fit: cover;      /* MAGIA: Recorta la imagen para que llene el espacio sin estirarse */
+            border-radius: 5px;     /* Bordes suavizados para las fotos */
+            border: 3px solid #000; /* Tu borde negro */
+            display: block;
+        }
+
+        img { /* Aplica a todas las imágenes */
+            width: 300px; /* Ancho fijo */
+            height: 200px; /* Alto fijo */
+            object-fit: cover; /* Ajusta la imagen sin deformarla (recorta si es necesario) */
+            border: 5px solid black; /* Borde negro de 5px */
+}
+
+        /* Encabezado */
+        .bloque h2 {
+            margin-top: 10px;
+        }
+
+        /* Texto */
+        .bloque p {
+            line-height: 1.5;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Contenedor principal -->
+    <div class="contenedor">
+
+        <!-- BLOQUE 1 -->
+        <div class="bloque">
+            <img src="img/pawer.jpeg" alt="Serie de 9 cuadros al oleo">
+            <h2><a href="Obra1.html" class="boton">Pawer!</a></h2>
+            <p>
+                Serie de nueve cuadros al oleo.
+            </p>    
+        </div>
+
+        <!-- BLOQUE 2 -->
+        <div class="bloque">
+            <img src="img/IMG_8686.jpeg" alt="Descripción de la imagen">
+            <h2>Cuerpos</h2>
+            <p>
+                Serie de ocho cuadros
+            </p>
+        </div>
+
+        <!-- BLOQUE 3 -->
+        <div class="bloque">
+            <img src="img/cuerpos.jpeg" alt="Descripción de la imagen">
+            <h2>Fancy</h2>
+            <p>
+                Oleo sobre tela. 100x100cm 
+            </p>
+        </div>
+
+    </div>
+
+
+<h1>Obras</h1>
+
+<a href="index.html" target="_blank">Volver a la página principal</a>
+<!-- <a href="https://www.wikipedia.org" target="_blank">Ir a Wikipedia</a>-->
+
+</body>
+</html>
