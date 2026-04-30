@@ -1,134 +1,144 @@
 <!DOCTYPE html>
-<!-- Indica al navegador que este documento usa HTML5 -->
-
-<html>
-<!-- Inicio del documento HTML -->
-
+<html lang="es">
 <head>
-<!-- Sección donde van metadatos, título y estilos -->
-
-<meta charset="UTF-8">
-<!-- Define la codificación de caracteres para que se vean bien tildes y símbolos -->
-
-<title>Multimedial</title>
-<!-- Título de la página que aparece en la pestaña del navegador -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michelle Velásquez</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@700&family=Montserrat:wght@300;600&display=swap" rel="stylesheet">
 
 <style>
+        :root {
+            --fondo-oscuro: #0e0630;
+            --primario: #6259e3;
+            --secundario: #8942cf;
+            --brillo-joya: #dcd7ff;
+            --texto-claro: #e0dcfc;
+        }
 
-    .boton { /* Define una clase llamada "boton" */
-  background-color: rgb(77, 50, 149); /* Color de fondo del botón */
-  color: rgb(137, 66, 207); /* Color del texto */
-  padding: 1px; /* Espacio interno (arriba, abajo, izquierda, derecha) */
-  width: 80px; /* Ancho fijo del botón */
-  text-align: center; /* Centra el texto horizontalmente */
-  transition: 0.3s; /* Hace que los cambios (como color) sean suaves en 0.3 segundos */
-}
+        body {
+            background: radial-gradient(circle at center, #1a104d 0%, #0e0630 100%);
+            color: var(--texto-claro);
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Montserrat', sans-serif;
+            overflow: hidden;
+        }
 
-.boton:hover { /* Se activa cuando el mouse pasa sobre el elemento */
-  background-color: rgb(46, 13, 80); /* Cambia el color de fondo al pasar el mouse */
-}
-/* Aquí comienza la sección de estilos CSS que define la apariencia visual */
-
-body{
-/* "body" se refiere a todo el contenido visible de la página */
-
-  background-color: #0e0630;
-  /* Define que el fondo de toda la página sea blanco */
-
-  color: #6259e3;
-  /* Define que el color del texto sea negro */
-
-  margin: 0;
-  /* Elimina los márgenes que los navegadores agregan por defecto */
-
-  height: 100vh;
-  /* Hace que el alto del cuerpo sea igual al 100% de la altura de la pantalla */
-
-  display: flex;
-  /* Activa el sistema Flexbox para organizar y centrar elementos */
-
-  justify-content: center;
-  /* Centra el contenido horizontalmente */
-
-  align-items: center;
-  /* Centra el contenido verticalmente */
-
-  font-family: Arial, sans-serif;
-  /* Define la tipografía del texto */
-
-  font-size: 60px;
-  /* Define el tamaño grande del texto */
-
-}
-/* Fin de las reglas de estilo del body */
-/* Contenedor principal */
         .contenedor {
-            width: 60%;
-            margin: auto;
+            width: 90%;
+            max-width: 450px;
+            text-align: center;
         }
 
-        /* Sección o bloque */
+        /* Tarjeta de perfil - Estilo Cristal Sobrio */
         .bloque {
-            background-color: rgb(39, 16, 95);
-            margin: 20px 0;
-            padding: 20px;
-            border-radius: 10px;
-        }
-
-        .bloque2 {
-            background-color: rgb(77, 50, 149);
-            margin: 50px 0;
-            padding: 10px;
+            background: rgba(39, 16, 95, 0.3);
+            backdrop-filter: blur(15px);
+            padding: 50px 30px;
             border-radius: 20px;
-            font-size: 40px;
-            
+            border: 1px solid rgba(255, 255, 255, 0.15);
+            box-shadow: 0 20px 50px rgba(0, 0, 0, 0.6);
+            transition: transform 0.4s ease;
         }
 
-        /* Imagen */
+        .bloque:hover {
+            transform: translateY(-5px);
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+
+        /* Imagen de perfil con marco de "Plata/Cromo" */
         .bloque img {
-            width: 100%;
-            height: auto;
+            width: 160px;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid transparent;
+            background: linear-gradient(var(--morado-oscuro), var(--morado-oscuro)) padding-box,
+                        linear-gradient(45deg, #ffffff, var(--primario), #ffffff) border-box;
+            margin-bottom: 25px;
+            box-shadow: 0 0 30px rgba(98, 89, 227, 0.2);
         }
 
-        /* Encabezado */
+        /* 1. EL NOMBRE CON EFECTO PLATEADO */
         .bloque h2 {
-            margin-top: 10px;
-            font-size: 80px;
+            margin: 10px 0;
+            font-family: 'Cinzel', serif;
+            font-size: 2.2rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            line-height: 1.1;
+            
+            /* Efecto Plateado / Cromo */
+            background: linear-gradient(to bottom, #ffffff 30%, var(--brillo-joya) 100%);
+            background-clip: text; /* Propiedad estándar */
+            -webkit-background-clip: text; /* Para compatibilidad con Chrome/Safari */
+            -webkit-text-fill-color: transparent;
+            color: transparent; /* "Respaldo" por si acaso */
+            
+            /* Sombra para dar volumen de pieza sólida */
+            text-shadow: 2px 2px 0px rgba(0,0,0,0.5);
         }
 
-        /* Texto */
+        /* 2. Subtitulo */
         .bloque p {
-            line-height: 1.5;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--primario);
+            text-transform: uppercase;
+            letter-spacing: 6px;
+            margin-top: 15px;
+            margin-bottom: 0;
         }
 
-</style>
-<!-- Fin de la sección de estilos -->
+        /* 3. SEPARACIÓN DE LOS BOTONES */
+        .bloque2 {
+            margin-top: 45px; /* Aquí ajustas qué tan lejos quieres los botones */
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
 
+        /* Botones Estilo Editorial Minimalista */
+        .boton {
+            display: block;
+            background-color: transparent;
+            color: white;
+            text-decoration: none;
+            padding: 18px;
+            border-radius: 4px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            font-size: 0.85rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            transition: all 0.3s ease;
+        }
+
+        .boton:hover {
+            background-color: white;
+            color: var(--fondo-oscuro);
+            letter-spacing: 5px; /* Efecto de expansión sutil */
+        }
+
+    </style>
 </head>
-<!-- Fin de la sección head -->
 
 <body>
-<!-- Inicio del contenido visible de la página -->
- <!-- Contenedor principal -->
     <div class="contenedor">
-
-        <!-- BLOQUE 1 -->
         <div class="bloque">
-            <img src="img/pawer.jpeg" alt="Serie" width="300">
-            <h2>Michelle Velásquez</h2>
-            <p>
-                Artista visual
-            </p>
+            <img src="img/foto perfil.jpg" alt="Michelle Velásquez">
+            <h2>Michelle Velásquez Sáez</h2>
+            <p>Artista Visual</p>
         </div>
 
         <div class="bloque2">
-         <a href="obras.html" class="boton">Obras</a><br>
-         <a href="contacto.html" class="boton">Contacto</a>
+            <a href="obras.html" class="boton">Obras</a>
+            <a href="contacto.html" class="boton">Contacto</a>
         </div>
-<!-- Texto que aparece en el centro de la pantalla -->
-
+    </div>
 </body>
-<!-- Fin del contenido visible -->
-
 </html>
-<!-- Fin del documento HTML -->
