@@ -119,7 +119,8 @@ MULTIMEDIAL
 ```
 
 ---
-<a id="2-enlaces"></a>### 2. Enlaces
+<a id="2-enlaces"></a>
+### 2. Enlaces
 Aquí se puede ver como las paginas se entrelazan entre sí, redirigiendo de una página a otra. Además que se puede evidenciar la interaccion del cursor sobre los botones haciendo que cambien su tamaño y color.
 
 <video src="https://raw.githubusercontent.com/mimii-07/Multimedial/main/img/enlaces.mp4" controls width="800"></video>
