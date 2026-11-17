@@ -136,7 +136,8 @@ Aquí se puede ver como las paginas se entrelazan entre sí, redirigiendo de una
 
 
 ---
-<a id="3-mini-sitio-de-3-páginas"></a>### 3. Mini sitio de 3 páginas
+<a id="3-mini-sitio-de-3-páginas"></a>
+### 3. Mini sitio de 3 páginas
 Podemos ver como la página consite de 3 minisitios generales el cual es el index o portada, obras y finalmente la pagina de contacto.
 
 <video src="https://raw.githubusercontent.com/mimii-07/Multimedial/main/img/paginas.mp4" controls width="800"></video>
