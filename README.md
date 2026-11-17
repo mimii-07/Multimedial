@@ -1,5 +1,7 @@
 # Multimedial
 
+![GIF de Multimedial](https://raw.githubusercontent.com/mimii-07/Multimedial/main/img/gif.gif)
+
 ## Taller multimedia
 Ejercicio 1, semana 1
 
