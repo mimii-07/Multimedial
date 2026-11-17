@@ -30,20 +30,21 @@
 
 ### Índice
 
-## Unidad I. 
-1. [Código base](#1-primera-página)
-2. [Enlaces](#2-enlaces-y-navegación)
+## Unidad I. Hipervinculo
+1. [Código base](#1-codigo-base)
+2. [Enlaces](#2-enlaces)
 3. [Mini sitio de 3 páginas](#3-mini-sitio-de-3-páginas)
 4. [Mi portafolio web](#4-mi-portafolio-web)
 5. [Sitio web directo](https://mimii-07.github.io/Multimedial/w/index.html)
 
-## Unidad II. [Programación visual creativa](#unidad-ii-programación-visual-creativa)
+## Unidad II. Programación visual creativa
 1. [Ejercicios y proyecto](#ejercicios-y-proyectos)
 
 ---
 
 ## Unidad I. Hipervínculo y Desarrollo Web
 
+<a id="1-codigo-base"></a>
 ### 1. Código
 
 
@@ -118,8 +119,7 @@ MULTIMEDIAL
 ```
 
 ---
-
-### 2. Enlaces
+<a id="2-enlaces"></a>### 2. Enlaces
 Aquí se puede ver como las paginas se entrelazan entre sí, redirigiendo de una página a otra. Además que se puede evidenciar la interaccion del cursor sobre los botones haciendo que cambien su tamaño y color.
 
 <video src="https://raw.githubusercontent.com/mimii-07/Multimedial/main/img/enlaces.mp4" controls width="800"></video>
@@ -135,8 +135,7 @@ Aquí se puede ver como las paginas se entrelazan entre sí, redirigiendo de una
 
 
 ---
-
-### 3. Mini sitio de 3 páginas
+<a id="3-mini-sitio-de-3-páginas"></a>### 3. Mini sitio de 3 páginas
 Podemos ver como la página consite de 3 minisitios generales el cual es el index o portada, obras y finalmente la pagina de contacto.
 
 <video src="https://raw.githubusercontent.com/mimii-07/Multimedial/main/img/paginas.mp4" controls width="800"></video>
@@ -187,6 +186,7 @@ Podemos ver como la página consite de 3 minisitios generales el cual es el inde
 
 ---
 
+<a id="4-mi-portafolio-web"></a>
 ### 4. Mi portafolio web
 Finalmente el mayor contenido de la pagina son mis obras, las cuales tienen todas sus paginas independientes y cada una tiene la opcion de volver al inicio, ver el catalogo de todas las obras o ir al contacto. Todos los botones reaccionar con la interaccion del cursor.
 
