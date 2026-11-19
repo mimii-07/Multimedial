@@ -123,7 +123,7 @@ MULTIMEDIAL
 ### 2. Enlaces
 Aquí se puede ver como las paginas se entrelazan entre sí, redirigiendo de una página a otra. Además que se puede evidenciar la interaccion del cursor sobre los botones haciendo que cambien su tamaño y color.
 
-<video src="https://raw.githubusercontent.com/mimii-07/Multimedial/main/img/enlaces.mp4" controls width="800"></video>
+![GIF de enlaces](https://raw.githubusercontent.com/mimii-07/Multimedial/main/img/enlacesgif.gif)
 
 ```html
 <!-- Enlace interno hacia otra página dentro de la misma carpeta -->
@@ -140,7 +140,7 @@ Aquí se puede ver como las paginas se entrelazan entre sí, redirigiendo de una
 ### 3. Mini sitio de 3 páginas
 Podemos ver como la página consite de 3 minisitios generales el cual es el index o portada, obras y finalmente la pagina de contacto.
 
-<video src="https://raw.githubusercontent.com/mimii-07/Multimedial/main/img/paginas.mp4" controls width="800"></video>
+![GIF del mini sitio](https://raw.githubusercontent.com/mimii-07/Multimedial/main/img/paginasgif.gif)
 
 #### Código base de la portada (`w/index.html`):
 ```html
@@ -192,7 +192,7 @@ Podemos ver como la página consite de 3 minisitios generales el cual es el inde
 ### 4. Mi portafolio web
 Finalmente el mayor contenido de la pagina son mis obras, las cuales tienen todas sus paginas independientes y cada una tiene la opcion de volver al inicio, ver el catalogo de todas las obras o ir al contacto. Todos los botones reaccionar con la interaccion del cursor.
 
-<video src="https://raw.githubusercontent.com/mimii-07/Multimedial/main/img/Grabaci%C3%B3n%202026-11-17%20130052.mp4" controls width="800"></video>
+![GIF del portafolio](https://raw.githubusercontent.com/mimii-07/Multimedial/main/img/obragif.gif)
 
 
 
@@ -210,3 +210,16 @@ Registro de ejercicios de Touchdesigner y generacion de imagenes con IA:
 3. [Point](https://drive.google.com/drive/folders/17M0PenrL7a8SVX96ALYR3-NVj5Ro60AU?usp=drive_link)
 4. [Comfy](https://drive.google.com/drive/folders/1fxfipq6L57-wN_1qWwnH6ICLYTfczmQC?usp=drive_link) 
 5. [Proyecto personal](https://drive.google.com/file/d/1FSXz_iKuLHTPLSfBmPNvoSj7b77pBnDH/view?usp=drive_link) 
+
+### Proyecto personal
+Resultados: [Link directo](https://drive.google.com/drive/folders/1xPlDzRE-bUTcuAXxhNu4GtLqShHecmMm?usp=drive_link)
+
+En el link podremos observar dentro la propuesta, proceso, imagenes que utilice y finalmente el resultado del proyecto para este trabajo.
+
+1. Propuesta: Documento con la descripcion del proyecto, contando el que fue lo que me llevo a entregar ese tipo de proyecto, mis referencias y procesos.
+2. Proyecto: Un tipo de avatar al que se le pueda agregar elementos de vestimenta, customizando asi su identidad. 
+3. Imagenes: Todas las imagenes las recolecte de internet en su formato png, para luego agregalarlas al proyecto.
+
+![Proyecto personal](https://github.com/mimii-07/Multimedial/raw/refs/heads/main/img/Captura%20de%20pantalla%202026-11-19%20102442.png)
+
+Mi proyecto esta directamente ligado a mi tema de la tesis, donde hablo sobre la identidad y la perdida de esta. En mi trabajo observamos un avatar que se puede personalizar agregandole vestimentas, construyendo asi su identidad.
